@@ -1,6 +1,3 @@
-script src="script.js"></script>
-</body>
-</html>
 body {
     font-family: sans-serif;
     margin: 0;
@@ -10,131 +7,66 @@ body {
 }
 
 header {
-    background-color: #558B2F; /* Verde Oliva */
+    background-color: #5cb85c;
     color: white;
-    padding: 20px;
+    padding: 1em 0;
     text-align: center;
 }
 
-header h1 {
-    margin-bottom: 5px;
-}
-
-.principal {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.secundaria {
-    background-color: #e0f2f7; /* Azul Claro */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-}
-
-h2 {
-    color: #2E7D32; /* Verde Escuro */
-    border-bottom: 2px solid #2E7D32;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-}
-
-p {
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-.botao-saiba-mais {
-    display: inline-block;
-    background-color: #008CBA; /* Azul */
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.botao-saiba-mais:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-body {
-    font-family: sans-serif;
-    margin: 0;
+nav ul {
+    list-style: none;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0;
 }
 
-header {
-    background-color: #558B2F; /* Verde Oliva */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
     color: white;
+    text-decoration: none;
+}
+
+main {
     padding: 20px;
-    text-align: center;
 }
 
-header h1 {
-    margin-bottom: 5px;
-}
-
-.principal {
-    background-color: #fff;
+.destaque {
+    background-color: #e0f2e0;
     padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
-.secundaria {
-    background-color: #e0f2f7; /* Azul Claro */
+.secao {
+    background-color: white;
     padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-h2 {
-    color: #2E7D32; /* Verde Escuro */
-    border-bottom: 2px solid #2E7D32;
+.secao h2 {
+    color: #5cb85c;
+    border-bottom: 2px solid #5cb85c;
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
 
-p {
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-.botao-saiba-mais {
-    display: inline-block;
-    background-color: #008CBA; /* Azul */
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.botao-saiba-mais:hover {
-    background-color: #0056b3;
+.secao ul {
+    list-style: disc;
+    margin-left: 20px;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
